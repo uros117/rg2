@@ -2,6 +2,10 @@
 
 RG2 is a modern 3D graphics renderer built with OpenGL, featuring shadow mapping, entity-component architecture, and real-time scene editing capabilities.
 
+![RG2 Screenshot](media/screenshot.png)
+
+*RG2 in action: 3D scene with textured cubes, terrain mesh, real-time shadows, and ImGui debug interface*
+
 ## Features
 
 - **Modern OpenGL Rendering Pipeline**: Uses OpenGL 4.6 Core Profile with GLAD loader
@@ -157,7 +161,19 @@ The debug panel allows real-time editing of:
 
 ## License
 
-This project uses several open-source libraries. Check individual library licenses in their respective directories.
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
+
+### Third-Party Libraries
+
+This project uses the following open-source libraries:
+
+- **GLFW** - Licensed under the zlib/libpng license
+- **GLAD** - Public domain/MIT license
+- **GLM** - MIT License or The Happy Bunny License
+- **ImGui** - MIT License
+- **STB** - Public domain (Unlicense)
+
+Each library retains its original license. See the respective directories for full license texts.
 
 ## Contributing
 

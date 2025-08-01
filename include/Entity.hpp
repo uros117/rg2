@@ -8,6 +8,7 @@
 #include "GLFW/glfw3.h"
 #include "Mesh.hpp"
 #include "Camera.hpp"
+#define GLM_ENABLE_EXPERIMENTAL
 #include "glm/gtx/quaternion.hpp"
 
 class Entity {
